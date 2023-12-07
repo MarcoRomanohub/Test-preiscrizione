@@ -1,0 +1,76 @@
+body{
+    background-image: url(background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container{ 
+    width: 62% ;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.407);
+    padding-top: 0.1%;  
+    padding-bottom: 8.5%; 
+    margin-top: 1.5%;
+    border-radius: 10px;
+}
+
+header{
+    text-align: center;
+    margin-top: 8.5%;
+}
+
+header > img{
+    width: 21%;
+}
+
+#Titolo{
+    color: lawngreen;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 150%; 
+    margin-bottom: 0.5%; 
+    margin-top: 0.5%;
+}
+
+#barra-prenotazione{
+    background-color: lawngreen;
+    display: block;
+    width: 80%;
+    padding: 1%;
+    text-align: center;
+    margin-left: 9%;
+}
+
+main section{ /* caratteristiche veicolo */
+    margin-left: 9%;
+}
+
+.caratteristiche-veicolo div{ /* posizione e stato carica */
+    font-size: smaller;
+    color: lightgrey;
+}
+
+section h3{ /* nome veicolo */
+    display: inline-block;
+    margin-bottom: 0%;
+    color: white;
+}
+
+.caratteristiche-veicolo div:last-child{ /* format stato carica veicolo */
+    height: 20px;
+    border-radius: 5px;
+}
+
+#carica-Gino22{
+    width: 250px;
+    background-color: orange;
+}
+
+#carica-Mike24{
+    width: 450px;
+    background-color: lawngreen;
+}
+
+#carica-Fede154{
+    width: 100px;
+    background-color: rgb(167, 46, 46);
+}
